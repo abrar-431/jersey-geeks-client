@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Champions League Final: Epic Showdown Between Real Madrid and Borussia Dortmund",
+        "description": "In an electrifying Champions League final, Real Madrid will face Borussia Dortmund. Fans and experts are buzzing about this highly anticipated match, predicting a thrilling encounter between the Spanish giants and the English champions.",
+        "image": "https://i.ibb.co/y8R6Pt8/news-1.jpg",
+        "date": "2024-05-18",
+        "author": "John Doe"
+    },
+    {
+        "title": "Lionel Messi's Potential Return to Barcelona",
+        "description": "Rumors are swirling about Lionel Messi's possible return to FC Barcelona. The football world is abuzz with speculation on whether the Argentine superstar will rejoin his former club, bringing a wave of excitement to fans worldwide.",
+        "image": "https://i.ibb.co/w0GSTHv/news-2.jpg",
+        "date": "2024-05-17",
+        "author": "Jane Smith"
+    },
+    {
+        "title": "Premier League Title Race: Liverpool and Manchester United Neck and Neck",
+        "description": "The Premier League title race is heating up as Liverpool and Manchester United remain tied at the top of the table. Football analysts are debating which team has the edge and what strategies will be key in the final weeks of the season.",
+        "image": "https://i.ibb.co/1M46JH9/news-3.jpg",
+        "date": "2024-05-16",
+        "author": "Mike Johnson"
+    },
+    {
+        "title": "Neymar's Future at PSG Uncertain Amid Transfer Speculations",
+        "description": "Neymar's future at Paris Saint-Germain is uncertain as transfer rumors continue to circulate. Discussions are intensifying about potential moves to other top European clubs, and what this means for PSG's prospects next season.",
+        "image": "https://i.ibb.co/L065QGC/news-4.jpg",
+        "date": "2024-05-15",
+        "author": "Emily Davis"
+    },
+    {
+        "title": "Rising Star: Erling Haaland Breaks Scoring Records in Bundesliga",
+        "description": "Erling Haaland has been making headlines by breaking multiple scoring records in the Bundesliga. Football enthusiasts are debating whether the young striker will soon become the best player in the world and what his future holds.",
+        "image": "https://i.ibb.co/MSfPR2m/news-5.jpg",
+        "date": "2024-05-14",
+        "author": "Alex Martinez"
+    }
+]
