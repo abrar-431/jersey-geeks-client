@@ -7,6 +7,7 @@ import { MdFormatListBulletedAdd } from "react-icons/md";
 import { VscWorkspaceUnknown } from "react-icons/vsc";
 import { NavLink, Outlet } from "react-router-dom";
 import useAdmin from "../../../../Hooks/useAdmin";
+import { FiShoppingBag } from "react-icons/fi";
 
 const Dashboard = () => {
     const [isAdmin] = useAdmin();
@@ -37,6 +38,9 @@ const Dashboard = () => {
                     </li>
                     <li>
                         <NavLink className={({isActive})=>isActive?'bg-green-700': '' } to='/dashboard/delete-jersey'><CiTrash />Delete Jersey</NavLink>
+                    </li>
+                    <li>
+                        <NavLink className={({isActive})=>isActive?'bg-green-700': '' } to='/dashboard/orders'><FiShoppingBag />My Orders</NavLink>
                     </li>
                     <li>
                         <NavLink className={({isActive})=>isActive?'bg-green-700': '' } to='/dashboard/users'><FaUsers />All Users</NavLink>

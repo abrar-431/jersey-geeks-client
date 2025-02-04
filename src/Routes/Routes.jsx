@@ -17,6 +17,11 @@ import PrivateRoute from "./PrivateRoute";
 import AllUsers from "../Layout/Home/Dashboard/All Users/AllUsers";
 import Manage from "../Pages/ManageJersey/Manage";
 import DeleteJersey from "../Layout/Home/Dashboard/DeleteJersey/DeleteJersey";
+import AdminHome from "../Layout/Home/Dashboard/AdminHome/AdminHome";
+import PaymentSuccess from "../Layout/Home/Dashboard/Cart/PaymentSuccess";
+import MyBookings from "../Layout/Home/Dashboard/Cart/MyBookings";
+import PaymentFail from "../Layout/Home/Dashboard/Cart/PaymentFail";
+import Orders from "../Layout/Home/Dashboard/Orders/Orders";
 
 const router = createBrowserRouter([
     {
@@ -52,7 +57,7 @@ const router = createBrowserRouter([
         {
           path: '/register',
           element: <Register></Register>
-        }
+        },
       ]
     },
     {
@@ -88,6 +93,26 @@ const router = createBrowserRouter([
         {
           path: 'users',
           element: <AllUsers></AllUsers>
+        },
+        {
+          path: 'adminHome',
+          element: <AdminHome></AdminHome>
+        },
+        {
+          path: 'payment/success/:tran_id',
+          element: <PaymentSuccess></PaymentSuccess>
+        },
+        {
+          path: 'payment/fail/:tran_id',
+          element: <PaymentFail></PaymentFail>
+        },
+        {
+          path: 'bookings',
+          element: <MyBookings></MyBookings>
+        },
+        {
+          path: 'orders',
+          element: <Orders></Orders>
         }
       ]
     }
